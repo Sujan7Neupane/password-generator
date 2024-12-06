@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 232, 255);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    background: rgb(9, 2, 18);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 300px;
+    color: #f5f5f5;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .output-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #passwordOutput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  #copyButton {
+    padding: 8px 10px;
+    border: none;
+    background: rgb(205, 95, 254);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #passwordLength {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .checkboxes {
+    text-align: left;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #generateButton {
+    width: 100%;
+    background-color: rgb(205, 95, 254);
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
